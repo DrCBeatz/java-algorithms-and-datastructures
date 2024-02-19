@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class BinarySearchTest {
 
     @Test
-    void testEmtpyArray() {
+    void testEmptyArray() {
         int[] nums = {};
         assertEquals(BinarySearch.ELEMENT_NOT_FOUND, BinarySearch.performBinarySearch(nums, 3));
     }
